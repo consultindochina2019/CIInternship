@@ -1,0 +1,104 @@
+<body>
+    <div class="container">
+        <div class="row justify-content-start header">
+            <div class="col-6">
+                <i class="fa fa-navicon"></i>
+            </div>
+            <div class="col-6 ">
+                <i class="fa fa-search" style="float: right;"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li *ngFor="let typeProduct of typeProducts" (click)="filter(typeProduct)" class="category-menu">
+                    {{typeProduct}}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" *ngIf="!isHidden">
+        <div class="row justify-content-start">
+            <div class="col-6 product">
+                <p>{{data.length}} Products {{selectedType}}</p>
+            </div>
+            <div class="col-6 header" >
+                <!-- <div id="cart-product">
+                    <p id="cart-button"><i class="fas fa-shopping-cart"></i>Giỏ Hàng<span>{{cart.length}}</span></p>
+                </div> -->
+                <button type="button" class="btn btn-primary" style="float:right" (click)="showCart()">
+                    Giỏ Hàng<span class="badge badge-light">{{cart.length}}</span>
+                </button>
+                <!-- <i class="fas fa-equals" style="float: right;"></i>
+               <i class="fa fa-th-large" style="float: right;"></i> -->
+            </div>
+        </div>
+    </div>
+    <div class="container" *ngIf="!isHidden">
+            <div class="row justify-content-start">
+                    <div *ngFor="let product of data | paginate: { itemsPerPage: 4, currentPage: p }" class="col-6" data-toggle="modal" data-target="#detail-product">
+                        <div class="content-product" (click)="show(product)">
+                                <div class="image-product">
+                                    <img  src="{{product.src}}" alt="{{product.name}}">
+                                </div>
+                                <div class="info-product">
+                                        <p>{{product.name}}</p>
+                                        <p>${{product.price}}</p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+    
+    <div class="modal fade" id="detail-product" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="detail-product">{{dataSelected.name}}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src = "{{dataSelected.src}}">
+              <!-- <div [ngStyle]="{'background-image': 'url('+link+')',}"></div> -->
+              <p [style.color]="'red'">Name : {{dataSelected.name}}</p>
+              <p>Price : ${{dataSelected.price}}</p>
+            </div>
+            <div class="modal-footer">
+              <input  type="number" value="{{dataSelected.amout}}" min="0" max="100" step="1" [(ngModel)]="dataSelected.amout"/>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="addCart(dataSelected)"><i class="fas fa-cart-arrow-down"></i><span>Chọn Mua</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <table class="table" *ngIf="isHidden">
+        <thead>
+            <tr>
+            <th scope="col">Sản Phẩm</th>
+            <th scope="col">Giá</th>
+            <th scope="col">Số Lượng</th>
+            <th scope="col">Tổng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of cart">
+            <th scope="row"><img style="width:50px;height:50px" src="{{product.src}}">{{product.name}}</th>
+            <td>{{product.price}}</td>
+            <td><i class="fas fa-minus" (click)="decreaseAmout(product)"></i>{{product.amout}}<i class="fas fa-plus" (click)="increaseAmout(product)"></i></td>
+            <td>{{product.price * product.amout}}</td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-primary" (click)="isHidden=!isHidden">Trở lại mua sắm</button></td>
+                <td></td>
+                <td></td>
+                <td>Tạm tính : ${{sum}}<button class="btn btn-danger" style="float:right" (click)="purchase()">Thanh Toán</button></td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>

@@ -1,0 +1,6 @@
+[
+    {"name": "Long Red Chairs","price":1000,"type":"Chair","src":"./img/hinh1.PNG"},
+    {"name": "Long Green Chairs","price":1000,"type":"Chair","src":"./img/hinh2.PNG"},
+    {"name": "Short Red Chairs","price":1000,"type":"Chair","src":"./img/hinh3.PNG"},
+    {"name": "Short Purple Chairs","price":1000,"type":"Chair","src":"./img/hinh4.PNG"}
+]
