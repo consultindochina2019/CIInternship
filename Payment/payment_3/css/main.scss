@@ -1,0 +1,102 @@
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+
+body{
+    background-color: rgb(232,232,232);
+}
+
+.title-header{
+    text-align: center;
+
+    .icon_left{
+        @include size(1.7rem,0,left);
+    }
+
+    span{
+        @include size(1.2rem,700,none);
+    }
+}
+
+.nav-menu{
+    text-align: center;
+
+    a{
+        color: black;
+    }
+    &:a{
+        text-decoration: none;
+    }
+    
+    .active{
+        font-weight: bold;
+        border-bottom: 2px solid black;
+    }
+}
+
+.form{
+    background-color: white;
+    width: 90%;
+    font-weight:500;
+
+    .title-main{
+
+        p{
+            font-size: 0.8rem;
+            color: rgb(146,146,146);   
+        }
+        
+    }
+
+    .number_money{
+        font-size: 1.5rem;
+    }
+
+    .type_money{
+        font-size: 1.5rem;
+        float:right;
+    }
+
+}
+
+.form{
+
+    .title-main{
+        @extend .title-main;
+    }
+
+    .bank-direct{
+        float: right;
+        font-weight: 400;
+
+    }
+}
+
+.form{
+
+    .title-main{
+        @extend .title-main;
+    }
+
+    .money-fee{
+        float: right;
+    }
+
+    .total-money{
+        @include size(1.5rem,bold,right);
+    }
+}
+
+.button-sub{
+
+    button{
+        background-color: rgb(32,32,32);
+        border-radius: none;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;
+    }
+} 

@@ -1,0 +1,62 @@
+.header {
+  background-color: #e8e8e8;
+}
+
+.header .title-header {
+  text-align: center;
+}
+
+.header .title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.header .title-header span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  float: none;
+}
+
+.header .title-receipt span {
+  color: #919191;
+  font-size: 0.8rem;
+}
+
+.header .title-receipt p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  float: none;
+}
+
+.menu {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.menu .date-title span, .menu .amount-title span, .menu .design-title span, .menu .code-title span {
+  font-size: 0.7rem;
+  font-weight: bold;
+  float: none;
+  color: #919191;
+}
+
+.menu .date-title p, .menu .amount-title p, .menu .design-title p, .menu .code-title p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  float: none;
+}
+
+.menu .star-icon, .menu .amount, .menu .date-icon, .menu .material-icon {
+  color: #919191;
+}
+
+.button-sub .btn {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

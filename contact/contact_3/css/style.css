@@ -1,0 +1,92 @@
+body {
+  background-color: #e8e8e8;
+  position: relative;
+}
+
+header .icon-left {
+  font-size: 1.5rem;
+}
+
+menu {
+  padding: 1rem;
+}
+
+.form-person, .form-number {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.form-person .wrap-user, .form-number .wrap-user {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 100%;
+  font-size: 1.2rem;
+  background-color: #919191;
+}
+
+.form-person .wrap, .form-number .wrap {
+  border: 1px solid #c7c5c5;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  padding-right: 0.8rem;
+  background-color: #919191;
+}
+
+.form-person .title-name span, .form-number .title-name span {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.form-person .title-name p, .form-number .title-name p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.form-person .icon-pencil, .form-number .icon-pencil {
+  padding-top: 5rem;
+}
+
+.form-number .type-phone {
+  float: right;
+  font-size: 0.7rem;
+  color: black;
+}
+
+.form-number .mail-title, .form-number .phone-number {
+  font-size: 1rem;
+}
+
+.form-number .icon-phone, .form-number .icon-mail, .form-number .icon-message {
+  font-size: 1.3rem;
+}
+
+.form-number .hr {
+  margin-top: -0rem;
+}
+
+footer {
+  background: #202020;
+  height: 4rem;
+  bottom: 0;
+  margin-top: 6rem;
+}
+
+.icon-footer {
+  line-height: 4rem;
+  font-size: 1.2rem;
+}
+
+.icon-footer a {
+  color: #636363;
+  text-decoration: none;
+}
+
+.icon-footer .icon-menu a:visited {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

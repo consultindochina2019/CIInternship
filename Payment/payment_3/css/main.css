@@ -1,0 +1,81 @@
+body {
+  background-color: #e8e8e8;
+}
+
+.title-header {
+  text-align: center;
+}
+
+.title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.title-header span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  float: none;
+}
+
+.nav-menu {
+  text-align: center;
+}
+
+.nav-menu a {
+  color: black;
+}
+
+.nav-menu:a {
+  text-decoration: none;
+}
+
+.nav-menu .active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.form {
+  background-color: white;
+  width: 90%;
+  font-weight: 500;
+}
+
+.form .title-main p {
+  font-size: 0.8rem;
+  color: #929292;
+}
+
+.form .number_money {
+  font-size: 1.5rem;
+}
+
+.form .type_money {
+  font-size: 1.5rem;
+  float: right;
+}
+
+.form .bank-direct {
+  float: right;
+  font-weight: 400;
+}
+
+.form .money-fee {
+  float: right;
+}
+
+.form .total-money {
+  font-size: 1.5rem;
+  font-weight: bold;
+  float: right;
+}
+
+.button-sub button {
+  background-color: #202020;
+  border-radius: none;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

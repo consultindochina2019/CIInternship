@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #919191;
+}
+
+header .icon-left {
+  font-size: 1.5rem;
+}
+
+header .name-number {
+  padding-top: 17rem;
+}
+
+header .name-number .name_title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+header .name-number .place_title {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+header .name-number .pencil {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+section .flex-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .flex-container .form {
+  background-color: #e8e8e8;
+  height: 5rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+section .flex-container .form .icon-phone, section .flex-container .form .icon-mail, section .flex-container .form .icon-message, section .flex-container .form .icon-comment {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1.7rem 0rem 1rem 0rem;
+}
+
+section .flex-container .form .number-phone, section .flex-container .form .name-mail {
+  padding: 1rem 0rem 1rem 0rem;
+  font-size: 1.2em;
+}
+
+section .flex-container .form .number-phone p, section .flex-container .form .name-mail p {
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */

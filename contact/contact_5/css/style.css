@@ -1,0 +1,75 @@
+header .icon-left {
+  font-size: 1.5rem;
+}
+
+.information-user {
+  background-color: #e8e8e8;
+  width: 100%;
+  padding: 1.2rem;
+}
+
+.information-user .icon-user .wrap-user {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  background-color: black;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.information-user .title-name span {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.information-user .title-name p {
+  font-size: 0.9rem;
+}
+
+.information-user .icon-seeting {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+main .flex-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .flex-container .form {
+  background-color: #e8e8e8;
+  height: 5rem;
+  margin: 1.3rem 0.5rem 0rem 0.5rem;
+}
+
+main .flex-container .form .icon-phone, main .flex-container .form .icon-mail, main .flex-container .form .icon-message, main .flex-container .form .icon-comment {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 5rem;
+}
+
+main .flex-container .form .number-phone, main .flex-container .form .name-mail {
+  padding: 1rem 0rem 1rem 0rem;
+  font-size: 1.2em;
+}
+
+main .flex-container .form .number-phone p, main .flex-container .form .name-mail p {
+  font-size: 0.8rem;
+}
+
+main .flex-container .form .icon-right {
+  line-height: 5rem;
+}
+
+main .img-map img {
+  width: 100%;
+}
+
+main .img-map .title-place {
+  font-size: 1.3rem;
+  margin: -18rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+
+.header{
+    text-align: center;
+    
+        .icon_left{
+            @include size(1.7rem,0,left);
+        }
+
+        span{
+            @include size(1rem,700 )
+        }
+}
+
+.title-atm{
+    @include size(1.6rem,700 );
+    color: rgb(211,211,211);
+    
+    .atm-visa{
+        color: black;
+        font-weight: 900;
+    }
+}
+
+    .menu-information{
+
+        .title{
+            @include size(0.7rem,bold,none )
+        }
+
+        .number-card{
+            font-size: 1.5rem;
+
+            input{
+                border:none;
+                border-bottom: 1px solid black;
+            }
+
+            input:focus{
+                outline: none
+            }
+        }
+        .date-time{
+
+            @extend .number-card;
+
+            .date-year{
+                @include size(1.3rem,bold,none);
+                input{
+                    width: 80%;
+                }
+            }
+
+            .number-cvv{
+                @include size(1.3rem,bold,none);
+
+                input{
+                    width: 90%;
+                }
+               
+            }
+        }
+
+        .name-user{
+            @extend .number-card
+
+        }
+    }
+
+    .form-checkbox-input{
+        width: 1.2rem;
+        height:1.2rem;
+        background: white;
+    }
+
+    .form-checkbox-label-2{
+        font-size: 0.8rem;
+    }
+
+    .button-sub{
+       
+        .btn{
+            background-color: rgb(32,32,32);
+            color: white;
+            padding: 1.5rem;
+            font-size: 0.8rem;
+            position: absolute;
+            bottom: 0;
+        }
+       
+    }

@@ -1,0 +1,106 @@
+
+@mixin height-width($height,$width,$line,$border) {
+    height: $height;
+    width: $width;
+    line-height:$line;
+    border-radius: $border;
+}
+@mixin size($size,$weight) {
+    font-size: $size;
+    font-weight: $weight;
+    
+}
+
+body{
+    background-color: rgb(232,232,232);
+    position: relative;
+}
+
+header{
+
+    .icon-left{
+        font-size: 1.5rem;
+    }
+
+    .icon-user
+    {
+
+        .wrap-user{
+            @include height-width(3rem, 3rem, 3rem,100% );
+            background-color: white;
+            font-size: 1.3rem;
+        } 
+        
+    }
+
+    .button-edit{
+
+        .btn{
+            background-color: rgb(32,32,32);
+            padding: 0.8rem;
+            color: white;
+            width: 7rem;
+            font-size: 0.9rem;
+        }
+    }
+
+    .name-user{
+
+        span{
+            @include size(1.3rem,700 );
+        }
+
+        p{
+            @include size(0.8rem,600 );
+        }
+    }
+    
+}
+
+main{
+    margin: 2rem 1rem 1rem 1rem;
+
+    .form{
+        background-color: white;
+        height: auto;
+
+        .icon-phone{
+            font-size: 1.2rem;
+            line-height: 3rem;
+        }
+        .phone-number{
+
+            span{
+                font-size: 1.2rem;
+            }
+
+            p{
+                font-size: 0.8rem;
+            }
+        }
+
+        .icon-mail{
+            @extend .icon-phone;
+        }
+        
+        .home-title{
+            @extend .phone-number;
+        }
+
+        .icon-message{
+            @extend .icon-mail;
+        }
+    }
+}
+
+.img-map{
+
+    img{
+        width: 100%;
+    }
+
+    .title-place{
+        font-size: 1.3rem;
+        margin-top: -25rem;
+    }
+}

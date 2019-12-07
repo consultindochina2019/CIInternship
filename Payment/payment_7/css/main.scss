@@ -1,0 +1,82 @@
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+%button{
+    background-color: black;
+    border-radius: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.title-header{
+    text-align: center;
+
+    .icon_left{
+        @include size(1.7rem,0,left);
+    }
+
+    span{
+        @include size(1.2rem,700,none);
+    }
+}
+
+.form{
+
+    background-color:rgb(232,232,232) ;
+    height: auto;
+    border-radius: 1rem;
+
+    .bank-title{
+
+        h4{
+            font-weight: bold;
+        }
+    }
+
+    .bank-title-name{
+
+        h2{
+            font-weight: 700;
+            float: right;
+        }
+        
+    }
+
+    .number-card{
+        font-size: 0.8rem;
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .name-user{
+
+        span{
+            @include size(0.8rem,bold,0);
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .date-title{
+
+        span{
+            @include size(0.8rem,bold,none);
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.button-sub{
+    button{
+        @extend %button;
+    }
+}  

@@ -1,0 +1,56 @@
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+
+.title-header{
+    text-align: center;
+
+    .icon_left{
+        @include size(1.7rem,0 ,left );
+    }
+
+    span{
+        @include size(1rem,700 ,none );          
+    }
+}
+
+.money-date{
+
+    .money{
+
+        p{
+            @include size(3rem,0 ,none );     
+        }
+    }
+    
+    span{
+        color: rgb(177,177,177);
+    }
+}
+
+.location{
+
+    .img-location{
+        width: 3rem;
+        height: 3rem;
+        background: rgb(132,132,132);
+    }
+
+    h6{
+        font-weight: bold;
+    }
+}
+.pay-total{
+
+    .title{
+        color: rgb(177,177,177);
+    }
+
+    .money{
+        float: right;
+    }
+}
+    
+    

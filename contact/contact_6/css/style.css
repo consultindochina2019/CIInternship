@@ -1,0 +1,38 @@
+header .icon-left {
+  font-size: 1.5rem;
+}
+
+.list-person .icon-user .wrap-user {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  border-radius: 100%;
+  background-color: black;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.list-person .title-name span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.list-person .title-name p {
+  font-size: 0.8rem;
+}
+
+.line-alphabetical {
+  height: 2.5rem;
+  background: #919191;
+  width: 100%;
+  padding-left: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+}
+
+.alphabetical-list {
+  color: #919191;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

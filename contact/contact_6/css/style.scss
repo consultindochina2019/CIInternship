@@ -1,0 +1,49 @@
+@mixin height-width($height,$width,$line,$border) {
+    height: $height;
+    width: $width;
+    line-height:$line;
+    border-radius: $border;
+}
+header{
+
+    .icon-left{
+        font-size: 1.5rem;
+    }
+}
+.list-person{
+    .icon-user
+    {
+        .wrap-user{
+            @include height-width(3rem, 3rem,3rem , 100%);
+            border-radius: 100%;
+            background-color:black;
+            font-size: 1.3rem;
+            color: white;
+        } 
+        
+    }
+    .title-name{
+        span{
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+        
+}
+.line-alphabetical{
+    height: 2.5rem;
+    background: rgb(145,145,145);
+    width: 100%;
+    padding-left: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+}
+.alphabetical-list{
+    color: rgb(145,145,145);
+    font-weight: bold;
+
+    
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: #e8e8e8;
+}
+
+.title-header {
+  text-align: center;
+}
+
+.title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.title-header span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  float: none;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 400;
+  float: none;
+  text-align: center;
+}
+
+.menu span {
+  font-size: 0.7rem;
+  font-weight: bold;
+  float: none;
+}
+
+.menu input {
+  border-radius: 0.3rem;
+  padding: 0.8rem;
+}
+
+.menu .title {
+  border: 1px solid black;
+}
+
+.form-check {
+  font-size: 0.8rem;
+}
+
+.button-sub .btn {
+  border-radius: 0.4rem;
+  padding: 1rem;
+  background-color: #202020;
+  color: white;
+  width: 100%;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=main.css.map */

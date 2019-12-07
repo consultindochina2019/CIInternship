@@ -1,0 +1,91 @@
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+
+.header{
+    background-color: rgb(232,232,232);
+
+    .title-header{
+        text-align: center;
+        
+        .icon_left{
+            @include size(1.7rem,0,left);
+        }
+
+        span{
+            @include size(1.2rem,700,none );
+        }
+    }
+
+    .title-receipt{
+
+        span{
+            color: rgb(145,145,145);
+            font-size: 0.8rem;
+        }
+
+        p{
+            @include size(1.5rem,bold,none);
+        }
+    }
+}
+
+.menu{
+    background-color: white;
+    width: 100%;
+    height: auto;
+
+    .amount{
+        @extend .star-icon;
+    }
+
+    .amount-title{
+        @extend .date-title;
+    }
+
+    .date-icon{
+        @extend .star-icon;
+    }
+
+    .date-title{
+
+        span{
+            @include size(0.7rem,bold,none);
+            color: rgb(145,145,145);
+        }
+
+        p{
+            @include size(1.5rem,500 ,none );
+        }
+    }
+
+    .star-icon{
+        color: rgb(145,145,145);
+    }
+
+    .design-title{
+        @extend .date-title;
+    }
+
+    .material-icon{
+        @extend .star-icon;
+    }
+
+    .code-title{
+        @extend .date-title;
+    }
+    
+}
+
+.button-sub{
+    .btn{
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;
+        background-color: black;
+        color: white;
+    }
+    
+}

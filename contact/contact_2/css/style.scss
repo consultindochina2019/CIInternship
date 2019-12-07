@@ -1,0 +1,87 @@
+@mixin width-height($width,$height,$line,$border) {
+    width: $width;
+    height: $height;
+    line-height: $line;
+    border-radius: $border;
+}
+@mixin size($font-weight,$size) {
+        font-weight: $font-weight;
+        font-size: $size;
+}
+header{
+
+    .icon-left{
+        font-size: 1.5rem;
+    }
+
+    section{
+
+        .wrap{
+            border: 1px solid rgb(199, 197, 197);
+            @include width-height(3.5rem,3.5rem , 3.5rem,100%);
+            @include size(0,1.3rem );
+        }
+
+        .wrap-user{
+            @include width-height(4rem,4rem , 4rem,100%);
+            @include size(0,1rem );
+            background-color: rgb(145,145,145);
+        }
+
+        .title-name{
+
+            span{
+                @include size(700,1.5rem );
+            }
+            
+            p{
+                @include size(500,0.7rem );
+            }
+        }
+    }
+}
+
+.information-preson{
+
+    .icon-phone{
+        text-align: center;
+        @include size(500,1.3rem );
+        line-height: 5rem;
+    }
+
+    .number-phone{
+        padding: 1rem 0rem 1rem 0rem;
+
+        span{
+            font-size: 1.2rem;
+        }
+
+        p{
+            font-size:0.8rem;
+        }
+    }
+
+    .icon-mail{
+        @extend .icon-phone;
+    }
+
+    .name-mail{
+        @extend .number-phone;
+    }
+
+    .icon-message{
+        @extend .icon-phone;
+    }
+
+    .icon-comment{
+        @extend .icon-phone;
+    }
+    
+    .hr{
+        margin-top: -1rem;
+    }
+}
+    
+
+    
+    

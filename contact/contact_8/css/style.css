@@ -1,0 +1,56 @@
+header .icon-left {
+  font-size: 1rem;
+}
+
+header .icon-left span {
+  font-weight: 700;
+}
+
+header .inner-addon {
+  position: relative;
+}
+
+header .inner-addon .fa {
+  position: absolute;
+  line-height: 3.5rem;
+}
+
+header .right-addon .fa {
+  right: 1rem;
+  font-size: 1.3rem;
+}
+
+header .right-addon input {
+  padding-right: 2rem;
+  height: 3.5rem;
+}
+
+.flex-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-container .form-users, .flex-container .form-user {
+  background-color: #e8e8e8;
+  width: 100%;
+  margin: 1rem 1rem 0rem 0rem;
+}
+
+.flex-container .form-users .icon-user .wrap-user, .flex-container .form-user .icon-user .wrap-user {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
+}
+
+.flex-container .form-users .title-name, .flex-container .form-user .title-name {
+  line-height: 3rem;
+}
+
+.flex-container .form-user {
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+@mixin size($size1,$size2) {
+    font-size: $size1;
+    font-weight: $size2;
+}
+
+.title-header{
+    text-align: center;
+
+    .icon_left{
+        @include size(1.7rem,0,left);
+    }
+
+    span{
+        @include size(1rem,700,none )
+    }
+}
+
+.form-atm{
+    border-radius: 0;
+
+    .name-atm{
+        font-size: 5rem;
+    }
+}
+
+.form-menu{
+
+    .form{
+        border: 0.8px solid rgb(145,145,145);
+    }
+    
+    .table{
+        
+        .title{
+            font-weight: bold;
+            float: left;
+        }
+
+        .name{
+            @include size(0.8rem,0,right);
+            color: rgb(145,145,145); 
+        }
+    }
+}
+
+.button-pay{
+    
+    button{
+        background-color: rgb(32,32,32);
+        color:white;
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+

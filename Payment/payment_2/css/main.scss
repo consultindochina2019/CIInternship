@@ -1,0 +1,58 @@
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+@mixin padding($size1,$size2){
+    border-radius: $size1;
+    padding: $size2;
+}
+body{
+    background-color:  #e8e8e8;
+}
+
+    .title-header{
+        text-align: center;
+
+        .icon_left{
+            @include size(1.7rem,0,left);
+           
+        }
+        span{
+            @include size(1.2rem,700,none);
+        }
+    }
+
+    .price{
+        @include size(3rem,400,none );
+        text-align: center;
+    }
+
+    .menu{
+
+        span{
+            @include size(0.7rem,bold,none);
+        }
+
+        input{
+            @include padding(0.3rem,0.8rem);
+        }
+
+        .title{
+            border: 1px solid black;
+        }
+    }
+
+    .form-check{
+        font-size: 0.8rem;
+    }
+
+    .button-sub{
+        .btn{
+            @include padding(0.4rem,1rem);
+            background-color: rgb(32,32,32);
+            color: white;
+            width: 100%;
+            font-size: 0.8rem;
+        }
+    }

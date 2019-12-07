@@ -1,0 +1,46 @@
+.title-header {
+  text-align: center;
+}
+
+.title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.title-header span {
+  font-size: 1rem;
+  font-weight: 700;
+  float: none;
+}
+
+.form .item {
+  background-color: #e8e8e8;
+}
+
+.form .item .title .icon-pen {
+  font-size: 1.3rem;
+  font-weight: 0;
+  float: right;
+  color: #adaba9;
+}
+
+.form .item .title span {
+  font-size: 0.8rem;
+  color: #504e4d;
+}
+
+.form .item .information span {
+  font-weight: bold;
+}
+
+.form .item .form-check :checked {
+  font-weight: bold;
+}
+
+.form .square {
+  width: 50px;
+  height: 50px;
+  background: #919191;
+}
+/*# sourceMappingURL=main.css.map */

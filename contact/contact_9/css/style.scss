@@ -1,0 +1,71 @@
+@mixin height-width($height,$width,$line,$border,$size) {
+  height: $height;
+  width: $width;
+  line-height:$line;
+  border-radius: $border;
+  font-size: $size;
+}
+.icon-left{
+  font-size: 1rem;
+
+  span{
+    font-weight: 700;
+  }
+}
+
+.inner-addon {
+  position: relative;
+  .fa{
+    position: absolute;
+    line-height: 4rem;
+  } 
+}
+.right-addon{
+
+    .fa{
+      right: 1rem;
+      font-size: 1.3rem;
+    }
+
+    input{
+      padding-right: 2rem;
+      height: 4rem;
+    }
+}
+
+.form{
+  background-color: rgb(232,232,232);
+  height: 5.3rem;
+  height: auto;
+  .icon-user
+  {
+
+    .wrap-user{
+      @include height-width(3.5rem,3.5rem ,3.5rem ,100% ,1.3rem );
+        background-color:black;
+        color: white;
+    } 
+  }
+  .name-user{
+    span{
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+  }
+}
+.img-map{
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .icon-user
+ 
+  {
+    margin-top: -30rem;
+    .wrap-user{
+      @include height-width(2.5rem,2.5rem ,2.5rem ,100% ,1rem );
+        background-color:white;
+        color: black;
+    } 
+  }
+}

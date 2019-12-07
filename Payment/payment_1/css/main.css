@@ -1,0 +1,80 @@
+.header {
+  text-align: center;
+}
+
+.header .icon_left {
+  float: left;
+  font-size: 1.7rem;
+}
+
+.header span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.title-atm {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: lightgray;
+}
+
+.title-atm .atm-visa {
+  color: black;
+  font-weight: 900;
+}
+
+.menu-information .title {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.menu-information .number-card, .menu-information .date-time, .menu-information .name-user {
+  font-size: 1.5rem;
+}
+
+.menu-information .number-card input, .menu-information .date-time input, .menu-information .name-user input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.menu-information .number-card input:focus, .menu-information .date-time input:focus, .menu-information .name-user input:focus {
+  outline: none;
+}
+
+.menu-information .date-time .date-year {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.menu-information .date-time .date-year input {
+  width: 80%;
+}
+
+.menu-information .date-time .number-cvv {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.menu-information .date-time .number-cvv input {
+  width: 90%;
+}
+
+.form-checkbox-input {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: white;
+}
+
+.form-checkbox-label-2 {
+  font-size: 0.8rem;
+}
+
+.button-sub .btn {
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,46 @@
+@mixin size($size1,$size2,$float) {
+    font-size: $size1;
+    font-weight: $size2;
+    float: $float;
+}
+
+.title-header{
+    text-align: center;
+
+        .icon_left{
+            @include size(1.7rem,0 ,left);
+        }
+
+        span{
+            @include size(1rem,700,none);          
+        }
+}
+
+.Adobe{
+    padding-top:4rem;
+
+    p{
+        font-size: 3rem;
+    }
+}
+
+.type{
+    color: rgb(117,117,117);
+}
+
+.money{
+    float: right;
+}
+
+.button-sub{
+
+    button{
+        background-color: black;
+        border-radius: none;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;
+    }
+}    
+    

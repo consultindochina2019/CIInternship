@@ -1,0 +1,68 @@
+.button-sub button {
+  background-color: black;
+  border-radius: none;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.title-header {
+  text-align: center;
+}
+
+.title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.title-header span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  float: none;
+}
+
+.form {
+  background-color: #e8e8e8;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.form .bank-title h4 {
+  font-weight: bold;
+}
+
+.form .bank-title-name h2 {
+  font-weight: 700;
+  float: right;
+}
+
+.form .number-card {
+  font-size: 0.8rem;
+}
+
+.form .number-card p {
+  font-size: 1.5rem;
+}
+
+.form .name-user span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  float: 0;
+}
+
+.form .name-user p {
+  font-size: 1.5rem;
+}
+
+.form .date-title span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  float: none;
+}
+
+.form .date-title p {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */

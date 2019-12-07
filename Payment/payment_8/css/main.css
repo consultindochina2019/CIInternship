@@ -1,0 +1,41 @@
+.title-header {
+  text-align: center;
+}
+
+.title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.title-header span {
+  font-size: 1rem;
+  font-weight: 700;
+  float: none;
+}
+
+.Adobe {
+  padding-top: 4rem;
+}
+
+.Adobe p {
+  font-size: 3rem;
+}
+
+.type {
+  color: #757575;
+}
+
+.money {
+  float: right;
+}
+
+.button-sub button {
+  background-color: black;
+  border-radius: none;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

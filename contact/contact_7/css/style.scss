@@ -1,0 +1,53 @@
+@mixin height-width($height,$width,$line,$border,$size) {
+    height: $height;
+    width: $width;
+    line-height:$line;
+    border-radius: $border;
+    font-size: $size;
+}
+header{
+
+    .icon-left{
+        font-size: 1.5rem;
+    }
+}
+
+.alphabet{
+    @include height-width(3.5rem, 3.5rem,3.5rem , 100%,1.4rem );
+    border: 1px solid rgb(155, 150, 150);
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    
+    
+}
+.form-user{
+    background-color: rgb(232,232,232);
+    height: auto;
+    width: 100%;
+    margin: 1rem 1rem 0rem 1rem;
+
+    .icon-user
+    {
+
+        .wrap-user{
+            @include height-width(3rem, 3rem,3rem , 100%,1rem );
+            background-color:black;
+            color: white;
+        } 
+    }
+}
+
+.form-users{
+    @extend .form-user;
+
+    .icon-user
+    {
+
+        .wrap-user{
+            @include height-width(3rem, 3rem,3rem , 100%,1rem );
+            background-color:black;
+            color: white;
+        } 
+    }
+}

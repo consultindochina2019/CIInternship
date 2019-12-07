@@ -1,0 +1,123 @@
+@mixin height-width($height,$width,$line,$border) {
+    height: $height;
+    width: $width;
+    line-height:$line;
+    border-radius: $border;
+}
+@mixin size($size,$weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+
+body{
+    background-color: rgb(232,232,232);
+    position: relative;
+}
+
+header{
+    
+    .icon-left{
+        font-size: 1.5rem;
+    }
+}
+
+menu{
+    padding: 1rem;
+}
+
+.form-person{
+    background-color: white;
+    width: 100%;
+    height: auto;
+
+    .wrap-user{
+        @include height-width(4rem,4rem , 4rem,100% );
+        font-size: 1.2rem;
+        background-color: rgb(145,145,145);
+    }
+
+    .wrap{
+        border: 1px solid rgb(199, 197, 197);
+        @include height-width(3rem,3rem , 3rem,100% );
+        font-size: 1.3rem;
+        padding-right: 0.8rem;
+        background-color: rgb(145,145,145);
+    }
+
+    .title-name{
+
+        span{
+            @include size(1.1rem,700 );
+        }
+        
+        p{
+            @include size(0.8rem,500 );
+        }
+    }
+
+    .icon-pencil{
+        padding-top:5rem
+    }
+}
+
+.form-number{
+    @extend .form-person;
+
+    .type-phone{
+        float:right;
+        font-size: 0.7rem;
+        color: black;
+    }
+
+    .mail-title{
+        font-size: 1rem;
+    }
+
+    .phone-number{
+        @extend .mail-title;
+    }
+
+    .icon-phone{
+        font-size: 1.3rem;
+    }
+
+    .icon-mail{
+        @extend .icon-phone;
+    }
+
+    .icon-message{
+        @extend .icon-phone;
+    }
+
+    .hr{
+        margin-top: -0rem;
+    }
+}
+
+footer{
+    background: rgb(32,32,32);
+    height: 4rem;
+    bottom: 0;
+    margin-top: 6rem;
+}
+
+.icon-footer{
+    line-height: 4rem;
+    font-size: 1.2rem;
+   
+       a{
+        color: rgb(99,99,99);
+        text-decoration: none;
+        
+       }
+       .icon-menu{
+
+            a:visited{
+            color: white;
+       }
+       
+    }
+      
+}
+  
+  

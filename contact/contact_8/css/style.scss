@@ -1,0 +1,68 @@
+@mixin height-width($height,$width,$line,$border,$size) {
+  height: $height;
+  width: $width;
+  line-height:$line;
+  border-radius: $border;
+  font-size: $size;
+}
+header{
+
+  .icon-left{
+    font-size: 1rem;
+
+    span{
+      font-weight: 700;
+    }
+  }
+
+  .inner-addon {
+    position: relative;
+
+    .fa{
+      position: absolute;
+      line-height: 3.5rem;
+    } 
+  }
+
+  .right-addon{
+  
+    .fa{
+      right: 1rem;
+      font-size: 1.3rem;
+    }
+
+    input{
+      padding-right: 2rem;
+      height: 3.5rem;
+    }
+  }
+}
+
+.flex-container {
+  flex-wrap: wrap;
+
+  .form-users{
+    background-color: rgb(232,232,232);
+    width: 100%;
+    margin: 1rem 1rem 0rem 0rem;
+
+    .icon-user
+    {
+
+        .wrap-user{
+          @include height-width(3rem, 3rem,3rem ,100% ,1.3rem );
+            background-color:black;
+            color: white;
+        } 
+    }
+    
+    .title-name{
+      line-height:3rem;
+    }
+  }
+
+  .form-user{
+    @extend .form-users;
+    opacity: 0;
+  }
+}

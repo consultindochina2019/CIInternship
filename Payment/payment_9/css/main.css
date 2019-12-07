@@ -1,0 +1,44 @@
+.title-header {
+  text-align: center;
+}
+
+.title-header .icon_left {
+  font-size: 1.7rem;
+  font-weight: 0;
+  float: left;
+}
+
+.title-header span {
+  font-size: 1rem;
+  font-weight: 700;
+  float: none;
+}
+
+.money-date .money p {
+  font-size: 3rem;
+  font-weight: 0;
+  float: none;
+}
+
+.money-date span {
+  color: #b1b1b1;
+}
+
+.location .img-location {
+  width: 3rem;
+  height: 3rem;
+  background: #848484;
+}
+
+.location h6 {
+  font-weight: bold;
+}
+
+.pay-total .title {
+  color: #b1b1b1;
+}
+
+.pay-total .money {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */

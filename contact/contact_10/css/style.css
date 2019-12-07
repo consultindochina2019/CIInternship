@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-map {
+  margin-top: -2rem;
+}
+
+.img-map img {
+  width: 100%;
+  height: 18rem;
+}
+
+.img-map .icon-left {
+  font-size: 1.5rem;
+  margin-top: -15rem;
+}
+
+.img-map .name-user span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.img-map .icon-user .icon-users {
+  padding-top: 12rem;
+}
+
+.img-map .icon-user .icon-users .wrap-user {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  background-color: #919191;
+}
+
+.form-phone, .form-users {
+  background-color: #e8e8e8;
+  height: auto;
+  width: 100%;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.form-phone .icon-phone .wrap-phone, .form-users .icon-phone .wrap-phone {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  background-color: white;
+  color: black;
+}
+
+.form-users {
+  height: 12rem;
+  margin: 1rem 1rem 0rem 0rem;
+}
+
+.form-users .icon-user .wrap-user {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  background-color: white;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

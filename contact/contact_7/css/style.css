@@ -1,0 +1,43 @@
+header .icon-left {
+  font-size: 1.5rem;
+}
+
+.alphabet {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 100%;
+  font-size: 1.4rem;
+  border: 1px solid #9b9696;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+}
+
+.form-user, .form-users {
+  background-color: #e8e8e8;
+  height: auto;
+  width: 100%;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.form-user .icon-user .wrap-user, .form-users .icon-user .wrap-user {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.form-users .icon-user .wrap-user {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
