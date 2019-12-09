@@ -1,0 +1,77 @@
+header {
+  height: 8rem;
+  background-color: black;
+}
+
+header .icon-left {
+  height: none;
+  padding-top: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.form {
+  height: 16rem;
+  margin-top: -1.5rem;
+  background-color: #919191;
+}
+
+.form .icon-plus {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+  background-color: #b4b4b4;
+}
+
+.form-main {
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.form-main .detail {
+  height: 9rem;
+  padding-top: 2.5rem;
+  font-size: 1.1rem;
+  height: 9rem;
+  padding-top: 3rem;
+  background-color: #ececec;
+}
+
+.form-main .detail p {
+  font-size: 0.8rem;
+}
+
+.recommend {
+  height: 8rem;
+  height: auto;
+  width: 100%;
+  background-color: #ececec;
+  padding: 1.2rem 0.5rem 0.2rem 1.5rem;
+}
+
+.recommend .recommend-title {
+  font-size: 1.2rem;
+}
+
+.form-team {
+  width: 100%;
+  height: 8rem;
+  height: auto;
+  background-color: #ececec;
+}
+
+.form-team .circle {
+  height: 3rem;
+  width: 3rem;
+  line-height: 0;
+  border-radius: 100%;
+  background-color: #919191;
+}
+
+.form-team .button-ado .btn {
+  width: 6rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 0.6rem;
+}
+/*# sourceMappingURL=style.css.map */

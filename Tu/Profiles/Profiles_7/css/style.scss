@@ -1,0 +1,80 @@
+@mixin circle($height,$width,$line,$size,$border) {
+    height: $height;
+    width: $width;
+    line-height: $line;
+    font-size: $size;
+    border-radius: $border;
+}
+
+header {
+    .icon-left {
+        font-size: 1.3rem;
+    }
+}
+
+.user{
+    
+    .user-wrap {
+        @include circle(4.5rem,4.5rem ,4.5rem ,1.3rem ,100% );
+        background-color: rgb(145,145,145);
+    }
+}
+
+.introduction {
+    font-size: 1.2rem;
+}
+
+.button-follow {
+
+    .btn {
+        width: 8rem;
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+}
+
+.button-message {
+    @extend .button-follow;
+}
+
+.detail {
+    height: auto;
+    padding: 1.5rem;
+    padding-top: 2rem;
+    background-color: rgb(236,236,236);
+
+    .detail-user {
+
+        .wrap-user { 
+            @include circle(2rem,2rem ,2rem ,0.6rem ,100% );
+            padding-left: 0.7rem;
+            background-color: black;
+        }
+
+        .detail-user-name{
+            font-size: 1.3rem;
+        }
+    }
+
+    .detail-time {
+            font-size: 1.2rem;
+    }
+
+    .detail-title {
+
+        b {
+            font-size: 1.7rem;
+        }
+
+        p{
+            @extend .detail-time;
+        }
+    }
+}
+
+.footer {
+    height: 3rem;
+    margin-top: -1.5rem;
+    background-color: rgb(145,145,145);
+}
+

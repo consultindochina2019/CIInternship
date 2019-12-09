@@ -1,0 +1,58 @@
+header .icon-left {
+  font-size: 1.3rem;
+}
+
+.user .user-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
+  border-radius: 100%;
+  background-color: #919191;
+}
+
+.introduction {
+  font-size: 1.2rem;
+}
+
+.button-follow .btn, .button-message .btn {
+  width: 8rem;
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+
+.detail {
+  height: auto;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  background-color: #ececec;
+}
+
+.detail .detail-user .wrap-user {
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  font-size: 0.6rem;
+  border-radius: 100%;
+  padding-left: 0.7rem;
+  background-color: black;
+}
+
+.detail .detail-user .detail-user-name {
+  font-size: 1.3rem;
+}
+
+.detail .detail-time, .detail .detail-title p {
+  font-size: 1.2rem;
+}
+
+.detail .detail-title b {
+  font-size: 1.7rem;
+}
+
+.footer {
+  height: 3rem;
+  margin-top: -1.5rem;
+  background-color: #919191;
+}
+/*# sourceMappingURL=style.css.map */

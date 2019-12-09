@@ -1,0 +1,55 @@
+$background: rgb(232,232,232);
+$background-img:rgb(145,145,145);
+@mixin size($height,$margin,$padding){
+    height: $height;
+    margin: $margin;
+    padding: $padding;
+}
+%circle{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.3rem;
+    border-radius: 100%;
+}
+header {
+    .icon-left {
+        font-size: 1.2rem;
+    }
+}
+.user {
+    @include size(16rem,1rem,1rem);
+    padding-top: 10em;
+    background-color: $background;
+    .user-icon {
+        .user-icon-wrap {
+            @extend %circle;
+            background-color: $background-img;
+        }
+    }
+}
+.project {
+    @include size(auto,1rem,1rem 2rem 0rem 1rem);
+    background-color: $background;
+
+    .project-number{
+        font-size: 1.2rem;
+    }
+    .project-img {
+        height: 6.5rem;
+        background-color: $background-img;
+    }
+}
+
+.shots {
+    @extend .project;
+    padding: 1rem 1rem 0rem 1rem;
+    .shots-number{
+        font-size: 1.2rem;
+    }
+    .shots-img {
+        height: 7rem;
+        padding-top: 2rem;
+        background-color: $background-img;
+    }
+}

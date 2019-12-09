@@ -1,0 +1,49 @@
+header .header-title {
+  font-size: 1.2rem;
+}
+
+.introduct .user .user-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  background-color: #919191;
+}
+
+.introduct .user .user-place {
+  font-size: 0.8rem;
+}
+
+.introduct .recommend {
+  font-size: 1.2rem;
+}
+
+.introduct .detail {
+  font-weight: 500;
+}
+
+.introduct .detail span {
+  font-size: 1.7rem;
+}
+
+.introduct .detail p {
+  font-size: 0.8rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.img .img-detail {
+  font-size: 1.3rem;
+  margin-top: -3.5rem;
+}
+
+.img .img-detail .btn-share {
+  background-color: #919191;
+  padding-left: 12rem;
+  font-size: 1.3rem;
+  margin-top: -0.7rem;
+}
+/*# sourceMappingURL=style.css.map */

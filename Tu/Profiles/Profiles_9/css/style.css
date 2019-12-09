@@ -1,0 +1,75 @@
+header .icon-left {
+  font-size: 1.3rem;
+}
+
+.user {
+  background-color: #ececec;
+  padding-top: 1.5rem;
+}
+
+.user .btn {
+  font-size: 0.8rem;
+  padding: 1rem;
+  width: 8rem;
+}
+
+.rotate {
+  transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+}
+
+.rotate .inner {
+  font-size: 0.7rem;
+  margin-left: -1rem;
+  position: absolute;
+}
+
+.rotate .outer {
+  position: relative;
+  display: inline-block;
+}
+
+.introduce {
+  font-size: 1.2rem;
+}
+
+.follow span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.follow p {
+  font-size: 0.9rem;
+}
+
+.img {
+  background-color: #919191;
+  height: 7rem;
+}
+
+.img .number-follow {
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+
+.img .number-follow span {
+  font-size: 1.8rem;
+}
+
+.img .number-follow p {
+  font-size: 0.8rem;
+}
+
+.img-post {
+  height: 15rem;
+  background-color: #919191;
+}
+
+.img-title {
+  height: 2rem;
+  background-color: #ececec;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+$background:rgb(145,145,145);
+header {
+    .icon-left {
+        font-size: 1.3rem;
+    }
+}
+.user {
+    background-color: rgb(232,232,232);
+    padding: 2rem;
+    height: auto;
+    margin-top: 2rem;
+    .user-icon {
+        .user-wrap {
+            @include circle(3.5rem, 3.5rem, 3.5rem,1.2rem , 100%)
+        }
+    }
+    .title-name {
+        b {
+            font-size: 1.1rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    } 
+
+    .icon-plus {
+        line-height: 4rem;
+    }
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.introduce {
+    font-size: 1.2rem;
+}
+
+.img {
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(145,145,145);
+}
+
+  .rotate {
+    transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+
+    .inner {
+        font-size: 0.8rem;
+        margin-left: -4rem;
+        position: absolute;
+        font-weight: bold;
+    }
+
+    .outer {
+    position: relative;
+    display: inline-block;
+    }
+}

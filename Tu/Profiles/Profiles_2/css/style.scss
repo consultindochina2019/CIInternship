@@ -1,0 +1,66 @@
+$baground-img: rgb(145,145,145);
+@mixin img($size,$margin) {
+    font-size: $size;
+    margin-top: $margin;
+}
+@mixin user($height,$width,$line,$border,$size) {
+    height: $height;
+    width: $width;
+    line-height: $line;
+    border-radius: $border;
+    font-size: $size;
+}
+header {
+
+    .header-title {
+        font-size: 1.2rem;
+    }
+}
+
+.introduct {
+
+    .user {
+
+        .user-wrap {
+            @include user(4.5rem, 4.5rem,4.5rem ,100% ,1.5rem );
+            background-color: $baground-img;
+        }
+
+        .user-place {
+            font-size: 0.8rem;
+        }
+    }
+
+    .recommend {
+        font-size: 1.2rem;
+    }
+
+    .detail {
+        font-weight: 500;
+
+        span {
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.img {
+
+    img {
+        width: 100%;
+    }
+
+    .img-detail {
+        @include img(1.3rem,-3.5rem );
+
+        .btn-share {
+            background-color: $baground-img;
+            padding-left: 12rem;
+            @include img(1.3rem,-0.7rem );
+        }
+    }
+}

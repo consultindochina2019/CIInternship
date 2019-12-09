@@ -1,0 +1,37 @@
+header {
+  height: 17rem;
+  font-size: 1.5rem;
+  background-color: #919191;
+}
+
+.form-user {
+  background-color: #ececec;
+}
+
+.form-user p {
+  font-size: 0.8rem;
+}
+
+.form-user .icon-plus {
+  line-height: 4rem;
+  font-size: 1.2rem;
+}
+
+.detail span {
+  font-size: 1.8rem;
+}
+
+.detail p {
+  font-size: 0.9rem;
+}
+
+.introduct {
+  font-size: 1.2rem;
+}
+
+.list-img {
+  margin: 0.05rem;
+  height: 13rem;
+  background-color: #919191;
+}
+/*# sourceMappingURL=style.css.map */

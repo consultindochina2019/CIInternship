@@ -1,0 +1,54 @@
+.user .user-icon .user-icon-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
+  border-radius: 100%;
+}
+
+header .icon-left {
+  font-size: 1.2rem;
+}
+
+.user {
+  height: 16rem;
+  margin: 1rem;
+  padding: 1rem;
+  padding-top: 10em;
+  background-color: #e8e8e8;
+}
+
+.user .user-icon .user-icon-wrap {
+  background-color: #919191;
+}
+
+.project, .shots {
+  height: auto;
+  margin: 1rem;
+  padding: 1rem 2rem 0rem 1rem;
+  background-color: #e8e8e8;
+}
+
+.project .project-number, .shots .project-number {
+  font-size: 1.2rem;
+}
+
+.project .project-img, .shots .project-img {
+  height: 6.5rem;
+  background-color: #919191;
+}
+
+.shots {
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.shots .shots-number {
+  font-size: 1.2rem;
+}
+
+.shots .shots-img {
+  height: 7rem;
+  padding-top: 2rem;
+  background-color: #919191;
+}
+/*# sourceMappingURL=style.css.map */

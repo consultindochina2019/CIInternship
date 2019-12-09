@@ -1,0 +1,62 @@
+$background: rgb(145,145,145);
+@mixin circle($height,$width,$line,$size,$border) {
+    height: $height;
+    width: $width;
+    line-height: $line;
+    font-size: $size;
+    border-radius: $border;
+}
+body {
+    background-color: rgb(236,236,236);
+} 
+
+header {
+    padding-top: 2.5rem;
+
+    .icon-left{
+        font-size: 1.2rem;
+    }
+}
+
+.user {
+    height: 16rem;
+    .user-icon {
+
+        .user-icon-wrap {
+            @include circle( 4.5rem, 4.5rem, 4.5rem ,1.3rem ,100% );
+            background-color: $background;
+        }
+    }
+
+    .icon-plus {
+        @include circle( 3.5rem, 3.5rem, 3.5rem ,100% );
+        margin-top: 10rem;
+        background-color: black;
+    }
+}
+
+.form-follow {
+    height: auto;
+
+    .circle {
+        @include circle( 3.5rem, 3.5rem, 3.5rem ,100% );
+        background-color: $background;
+    }
+
+    .number-follow {
+        @include circle( 3.5rem ,2rem );
+        border-radius: 2rem;
+        line-height: 3.5rem;
+        background-color: $background;
+    }
+}
+
+.shots {
+    height: auto;
+    line-height: 7rem;
+
+    .img-shots {
+        height: 7rem;
+        background-color: $background;
+    }
+}

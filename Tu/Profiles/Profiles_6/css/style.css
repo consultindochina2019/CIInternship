@@ -1,0 +1,61 @@
+body {
+  background-color: #ececec;
+}
+
+header {
+  padding-top: 2.5rem;
+}
+
+header .icon-left {
+  font-size: 1.2rem;
+}
+
+.user {
+  height: 16rem;
+}
+
+.user .user-icon .user-icon-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
+  border-radius: 100%;
+  background-color: #919191;
+}
+
+.user .icon-plus {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 100%;
+  margin-top: 10rem;
+  background-color: black;
+}
+
+.form-follow {
+  height: auto;
+}
+
+.form-follow .circle {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+  background-color: #919191;
+}
+
+.form-follow .number-follow {
+  border-radius: 2rem;
+  line-height: 3.5rem;
+  background-color: #919191;
+}
+
+.shots {
+  height: auto;
+  line-height: 7rem;
+}
+
+.shots .img-shots {
+  height: 7rem;
+  background-color: #919191;
+}
+/*# sourceMappingURL=style.css.map */

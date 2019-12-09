@@ -1,0 +1,65 @@
+header .icon-left {
+  font-size: 1.5rem;
+}
+
+header span {
+  font-size: 1.2rem;
+}
+
+.introduct .user .user-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  background: #919191;
+}
+
+.introduct .title .title-name {
+  font-size: 1.3rem;
+}
+
+.introduct .title .title-place {
+  font-size: 0.9rem;
+}
+
+.introduct .plus .plus-wrap {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 100%;
+  font-size: 1.3rem;
+}
+
+.introduct .recommend {
+  font-size: 1.2rem;
+}
+
+.information .information-form {
+  background: #ececec;
+  height: 8rem;
+  padding-top: 2.5rem;
+}
+
+.information .information-form span {
+  font-size: 1.2rem;
+}
+
+.information .information-form p {
+  font-size: 1.1rem;
+}
+
+.card img {
+  background-color: #919191;
+  height: 15rem;
+}
+
+.card .card-body {
+  background-color: #ececec;
+  font-size: 1.2rem;
+}
+
+.card .card-body .card-body__comment {
+  padding-left: 3rem;
+}
+/*# sourceMappingURL=style.css.map */

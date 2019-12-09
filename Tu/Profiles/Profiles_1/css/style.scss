@@ -1,0 +1,87 @@
+$baground-wrap: rgb(145,145,145);
+$baground-card: rgb(236,236,236);
+@mixin wrap($height,$width,$line,$border,$size) {
+    height: $height;
+    width: $width;
+    line-height: $line;
+    border-radius: $border;
+    font-size: $size;
+}
+
+header {
+
+        .icon-left {
+            font-size: 1.5rem;
+        }
+
+        span {
+            font-size: 1.2rem;
+        }
+}
+
+.introduct {
+
+    .user {
+
+        .user-wrap {
+            @include wrap(4.5rem,4.5rem,4.5rem,100%,1.3rem);
+            background: $baground-wrap;
+        }
+    }
+
+    .title {
+
+        .title-name {
+            font-size: 1.3rem;
+        }
+
+        .title-place {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .plus {
+
+        .plus-wrap {
+            @include wrap(3.5rem,3.5rem,3.5rem,100%,1.3rem);
+        }
+    }
+
+    .recommend {
+        font-size: 1.2rem;
+    }
+}
+
+.information {
+
+    .information-form {
+        background: $baground-card;
+        height: 8rem;
+        padding-top: 2.5rem;
+
+        span {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.card {
+
+    img {
+        background-color: $baground-wrap;
+        height: 15rem;
+    }
+
+    .card-body {
+        background-color: $baground-card ;
+        font-size: 1.2rem;
+        
+        .card-body__comment {
+            padding-left: 3rem;
+        }
+    }
+}
